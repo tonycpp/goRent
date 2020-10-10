@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         elevation: 0,
         actions: <Widget>[
           IconButton(
-            icon: Icon(Icons.filter_list_rounded),
+            icon: Icon(Icons.filter_list),
             color: Colors.grey,
             iconSize: 30,
             onPressed: () {},
@@ -74,7 +74,7 @@ class HomePage extends StatelessWidget {
               color: Colors.white,
             ),
             child: Icon(
-              Icons.calendar_today_rounded,
+              Icons.calendar_today,
               color: Colors.grey,
             ),
           ),
